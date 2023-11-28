@@ -1,0 +1,33 @@
+/* ItemDetail.css */
+
+.CardItem {
+    border: 1px solid rgb(171, 208, 238)b;
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+  }
+  
+  .Header {
+    text-align: center;
+  }
+  
+  .ItemHeader {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .ItemImg {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .Info {
+    margin: 5px 0;
+  }
+  
+  .ItemFooter {
+    margin-top: 15px;
+  }
+  
+  /* Puedes agregar más estilos según tus necesidades */

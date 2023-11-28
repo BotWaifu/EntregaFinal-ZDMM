@@ -1,0 +1,35 @@
+
+/* NavBar.css */
+
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #8bcfcb;
+    color: white;
+}
+
+.NavBar h3 {
+    margin: 0;
+}
+
+.Categories {
+    display: flex;
+    gap: 20px;
+}
+
+.Option,
+.ActiveOption {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.Option:hover {
+    text-decoration: underline;
+}
+
+.ActiveOption {
+    color: #ff8000; /* Cambia el color según tu preferencia */
+}
