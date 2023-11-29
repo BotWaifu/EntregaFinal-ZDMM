@@ -1,5 +1,5 @@
 
-/* NavBar.css */
+
 
 .NavBar {
     display: flex;
@@ -31,5 +31,5 @@
 }
 
 .ActiveOption {
-    color: #ff8000; /* Cambia el color según tu preferencia */
+    color: #ff8000; 
 }
