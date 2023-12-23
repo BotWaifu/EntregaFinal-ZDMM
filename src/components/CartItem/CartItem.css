@@ -1,0 +1,41 @@
+/* Agrega estos estilos a tu archivo CartItem.css */
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+  .item-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .item-info h4 {
+    margin-right: 10px;
+  }
+  .item-info p {
+    margin-right: 10px; 
+  }
+  .item-info img {
+    max-width: 50px; 
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .item-actions button {
+    background-color: #dc3545; 
+    color: white; 
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px; 
+}
+  
+  .item-actions button:hover {
+    background-color: #c82333; 
+  }

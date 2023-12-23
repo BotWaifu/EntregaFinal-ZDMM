@@ -1,6 +1,42 @@
-.ListGroup {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    /* Agrega cualquier otro estilo que desees */
+
+div {
+  margin: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex; 
+  flex-wrap: nowrap; 
+  overflow-x: auto; 
+}
+
+li {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-right: 10px; 
+  min-width: 200px; 
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
 }

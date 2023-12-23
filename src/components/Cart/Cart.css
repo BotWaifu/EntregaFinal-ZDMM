@@ -1,0 +1,16 @@
+.empty-cart-message {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 18px;
+    color: #555;
+  }
+  .Link {
+    text-decoration: none;
+    color: tuColorPreferido;
+  }
+  
+
+  .Link:hover {
+    color: otroColor;
+    text-decoration: underline; 
+  }

@@ -3,6 +3,7 @@ import { Link, NavLink } from "react-router-dom"
 import CardWidget from "../CartWidget/CartWidget"
 import './NavBar.css';
 
+
 const NavBar = () => {
     return (
         <nav className="NavBar">

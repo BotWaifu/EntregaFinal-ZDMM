@@ -1,27 +1,49 @@
+.esEste {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
 
 
-.CardItem {
-    border: 1px solid #a5acea;
-    padding: 10px;
+.ItemList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .CardItem {
+    border: 1px solid rgba(0, 255, 204, 0.817);
+    border-radius: 20px !important;
+    padding: 20px;
     margin: 10px;
-    width: 200px;
-}
-.ItemHeader {
-    color: #333;
-}
-
-.ItemImg {
-    max-width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .Header {
+    text-align: center;
+  }
+  
+  .ItemHeader {
+    font-size: 20px;
+    margin: 0;
+  }
+  .ItemImg {
+    max-width: 100%; /* Evita que las imágenes superen el ancho del contenedor */
     height: auto;
-}
-
-.Info {
-    margin-top: 8px;
-}
-
-.ItemFooter {
     margin-top: 10px;
-}
+  }
+  
+  .Info {
+    margin: 5px 0;
+  }
+  
+  .ItemFooter {
+    margin-top: 15px;
+  }
+
 
 .Option {
     color: #007bff;

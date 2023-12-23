@@ -1,0 +1,28 @@
+/* CartWidget.css */
+
+div {
+  position: relative;
+}
+
+Link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+img {
+  width: 30px; 
+  height: auto;
+  margin-right: 5px; 
+}
+
+span {
+  background-color: red; 
+  color: white; 
+  padding: 5px; 
+  border-radius: 50%; 
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 12px; 
+}
